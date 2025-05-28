@@ -4,17 +4,21 @@ Agregado validaciones y mensajes de error
 
 # Seguir los pasos a continuación para un correcto funcionamiento
 
+# Instalacion nodeModules
+
+\ProyectoAngularV2> npm i
+
 # Levantamiento del API db.json
 
-\ProyectoAngular> cd api
+\ProyectoAngularV2> cd api
 
-\ProyectoAngular\api> json-server --watch db.json --port 3018
+\ProyectoAngularV2\api> json-server --watch db.json --port 3018
 
 # Levantamiento del Server
 
-\ProyectoAngular\api> cd ..
+\ProyectoAngularV2\api> cd ..
 
-\ProyectoAngular> npm start 
+\ProyectoAngularV2> npm start 
 
 
 
