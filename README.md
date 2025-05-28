@@ -4,7 +4,7 @@ Agregado validaciones y mensajes de error
 
 # Seguir los pasos a continuación para un correcto funcionamiento
 
-# Instalacion nodeModules
+# Instalación node_modules
 
 \ProyectoAngularV2> npm i
 
