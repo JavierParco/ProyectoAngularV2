@@ -1,0 +1,64 @@
+<div class="principal">
+    <div class="form">
+        <div style="text-align: left;">
+            <button class="btn-volver" (click)="volver()">
+            <span style="font-size: 16px;"><strong>Regresar</strong></span>
+            </button>
+        </div>
+        <h2>Editar Producto</h2>
+        <form (ngSubmit)="enviarFormulario()">
+        <div>
+            <label><strong>ID</strong></label>
+            <input [(ngModel)]="product.id" name="id" required minlength="3" maxlength="10" readonly />
+            <div *ngIf="showErrors && (product.id.length < 3 || product.id.length > 10)" style="color:red;">
+            ID debe tener entre 3 y 10 caracteres.
+            </div>
+        </div>
+
+        <div>
+            <label><strong>Nombre:</strong></label>
+            <input [(ngModel)]="product.nombre" name="nombre" required minlength="5" maxlength="100" />
+            <div *ngIf="showErrors && (product.nombre.length < 5 || product.nombre.length > 100)" style="color:red;">
+            Nombre debe tener entre 5 y 100 caracteres.
+            </div>
+        </div>
+
+        <div>
+            <label><strong>Descripción:</strong></label>
+            <textarea [(ngModel)]="product.description" name="description" required minlength="10" maxlength="200"></textarea>
+            <div *ngIf="showErrors && (product.description.length < 10 || product.description.length > 200)" style="color:red;">
+            Descripción debe tener entre 10 y 200 caracteres.
+            </div>
+        </div>
+
+        <div>
+            <label><strong>Logo URL:</strong></label>
+            <input [(ngModel)]="product.logo" name="logo" required />
+            <div *ngIf="showErrors && !product.logo" style="color:red;">
+            El campo Logo no puede estar vacío.
+            </div>
+        </div>
+
+        <div>
+            <label><strong>Fecha de Liberación:</strong></label>
+            <input [(ngModel)]="product.fechaLib" name="fechaLib" type="date" required />
+            <div *ngIf="showErrors && !fechaLiberacionValida" style="color:red;">
+            La fecha de liberación debe ser igual o posterior a hoy.
+            </div>
+        </div>
+
+        <div>
+            <label><strong>Fecha de Revisión:</strong></label>
+            <input [(ngModel)]="product.fechaRev" name="fechaRev" type="date" required />
+            <div *ngIf="showErrors && !fechaRevisionValida" style="color:red;">
+            La fecha de revisión debe ser exactamente un año después de la fecha de liberación.
+            </div>
+        </div>
+        <div class="form-c">
+        <button type="submit"><strong>Guardar Cambios</strong> </button>
+        <button type="button" (click)="volver()"><strong>Cancelar</strong></button>
+        </div>
+        </form>        
+    </div>
+</div>
+  

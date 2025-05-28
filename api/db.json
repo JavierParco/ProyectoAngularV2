@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "PichCC003",
+      "nombre": "Visa Signature Pichincha Miles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bancopichincha.com.co/documents/158147/441820/TC-Infinite-banco-pichincha.png/2927556c-a16f-b2fe-def4-10c8eebb6eca?t=1634857084377",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "PichCC004",
+      "nombre": "Tarjeta de crédito",
+      "description": "Visa Premium Pichincha Miles",
+      "logo": "https://www.bancopichincha.com.co/documents/158147/441820/AF_Disen%CC%83o_PlasticoTarjetadeCredito_Gold_180910.jpg/6549183f-6e0c-141e-c298-3e08734cdd95?t=1558124363880",
+      "fechaLib": "2025-05-09",
+      "fechaRev": "2025-05-10"
+    },
+    {
+      "id": "PichCC005",
+      "nombre": "Visa Joven Pichincha Miles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bancopichincha.com.co/documents/158147/441820/AF_Disen%CC%83o_PlasticoTarjetadeCredito_Gold_180910.jpg/6549183f-6e0c-141e-c298-3e08734cdd95?t=1558124363880",
+      "fechaLib": "2025-05-09",
+      "fechaRev": "2025-05-10"
+    },
+    {
+      "id": "PichCC006",
+      "nombre": "Visa Platinum Pichincha Miles Joven",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bancopichincha.com.co/documents/158147/441820/AF_Disen%CC%83o_PlasticoTarjetadeCredito_Cla%CC%81sica_%28Azul%29_180910.jpg/20946586-edcc-7b33-dc17-8d2deb432aab?t=1558124363833",
+      "fechaLib": "2025-05-09",
+      "fechaRev": "2026-05-09"
+    },
+    {
+      "id": "PichCC007",
+      "nombre": "Visa Infinite Pichincha Miles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bancopichincha.com.co/documents/158147/441820/TC-Infinite-banco-pichincha.png/2927556c-a16f-b2fe-def4-10c8eebb6eca?t=1634857084377",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-19"
+    },
+    {
+      "id": "PichCC0010",
+      "nombre": "Visa Platinum MIles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bbva.com.co/content/dam/public-web/colombia/new-beginning/tarjetas-credito/visa-platinum.png.img.768.1594658798352.png",
+      "fechaLib": "2025-05-27",
+      "fechaRev": "2026-05-27"
+    },
+    {
+      "id": "PichCC0012",
+      "nombre": "Visa Platinum MIles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bbva.com.co/content/dam/public-web/colombia/new-beginning/tarjetas-credito/visa-platinum.png.img.768.1594658798352.png",
+      "fechaLib": "2025-05-27",
+      "fechaRev": "2026-05-27"
+    },
+    {
+      "id": "PichCC0013",
+      "nombre": "Visa Platinum Pichincha Miles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bbva.com.co/content/dam/public-web/colombia/new-beginning/tarjetas-credito/visa-platinum.png.img.768.1594658798352.png",
+      "fechaLib": "2025-05-28",
+      "fechaRev": "2026-05-28"
+    },
+    {
+      "id": "PichCC0015",
+      "nombre": "Visa Platinum Pichincha",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bbva.com.co/content/dam/public-web/colombia/new-beginning/tarjetas-credito/visa-platinum.png.img.768.1594658798352.png",
+      "fechaLib": "2025-05-28",
+      "fechaRev": "2026-05-28"
+    },
+    {
+      "id": "PichCC0025",
+      "nombre": "Visa Platinum Miles",
+      "description": "Tarjeta de crédito",
+      "logo": "https://www.bbva.com.co/content/dam/public-web/colombia/new-beginning/tarjetas-credito/visa-platinum.png.img.768.1594658798352.png",
+      "fechaLib": "2025-05-29",
+      "fechaRev": "2026-05-29"
+    }
+  ]
+}

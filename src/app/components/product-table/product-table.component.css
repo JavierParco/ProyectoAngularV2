@@ -1,0 +1,328 @@
+/* CONTENEDOR GENERAL */
+.outer-container {
+  background-color: #fff8cc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1500px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+/* NUEVA BARRA SUPERIOR: Búsqueda + botón Agregar */
+.barra-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto 10px auto;
+  box-sizing: border-box;
+}
+
+/* INPUT DE BÚSQUEDA */
+.search-bar {
+  margin: 0;
+  width: auto;
+  border-radius: 8px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+}
+
+/* Table Container */
+.table-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+  overflow-x: auto;
+  max-width: 90%;
+  font-weight: 400;
+  margin: 20px auto;
+}
+
+/* Table */
+table {
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-shadow: 0 4px 12px rgba(247, 247, 247, 0.61);
+  border-radius: 14px;
+  overflow: auto;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* headers */
+th {
+  background-color: #ffffff8f;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* cells */
+td {
+  padding: 12px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 15px;
+}
+
+/* file hover */
+tr:hover td {
+  background-color: #f9f9f9;
+}
+
+/* edit and delete buttons */
+.btn1,
+.btn2 {
+  margin-right: 8px;
+}
+
+.btn1 {
+  padding: 10px 18px;
+  background-color: #09003d;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #606066ad;
+}
+
+.btn2 {
+  padding: 10px 18px;
+  background-color: #ffee00;
+  border: none;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #fffb00ad;
+}
+
+/* SELECTOR DE PÁGINA */
+.page-size {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  font-family: inherit;
+}
+
+.page-size select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* BOTÓN AGREGAR */
+.btn-agregar {
+  background-color: #f7e00c;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-agregar:hover {
+  border-radius: 8px;
+  background-color: #f1ee14e1;
+}
+
+/* OPCIONES */
+.opciones-container {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-opciones {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn-opciones:hover {
+  background-color: #e0e0e0;
+}
+
+
+
+/* MODAL */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff8cc;
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-buttons {
+  border-radius: 8px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-cancelar,
+.btn-confirmar {
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: lighter;
+}
+
+.btn-cancelar {
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.btn-confirmar {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+}
+.btn-cancelar:hover {
+    background-color: #d62828;
+  
+}
+.btn-confirmar:hover {
+  background-color: #53d134;
+
+}
+
+.menu-container{
+  position: relative;
+  display: inline-block;
+}
+.menu-toggle{
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-options{
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  min-width: 100px;
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-container:hover .menu-options{
+  display: block;
+}
+
+.menu-options button{
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  background: none;
+  cursor: pointer;
+}
+
+.menu-options button:hover{
+  background-color: #f0f0f0;
+}
+ /* LISTA DESPEGABLE TRES PUNTOS HORIZONTALES */
+ .dropdown{
+  position:relative;
+  display: inline-block;
+}
+.dropdown-toggle{
+  background:fixed;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0, 1);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu button{
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+.dropdown-menu button:hover{
+  background-color: #f0f0f0;
+}
+.btn-volver {
+  background:#f3d113;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.btn-volver:hover {
+  transform: translateX(-5px);
+}
